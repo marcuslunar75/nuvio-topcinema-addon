@@ -1,0 +1,9 @@
+{
+  "id": "topcinema-arabic-provider",
+  "name": "TopCinema Arabic",
+  "version": "1.0.0",
+  "description": "إضافة جلب سيرفرات الأفلام والمسلسلات العربية والأجنبية من موقع TopCinema",
+  "filename": "providers/topcinema.js",
+  "supportedTypes": ["movie", "tv"],
+  "enabled": true
+}
