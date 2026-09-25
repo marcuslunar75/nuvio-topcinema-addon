@@ -1,42 +1,10 @@
-{
-  "id": "com.topcinema.nuvio.addon",
-  "version": "1.0.0",
-  "name": "TopCinema Arabic",
-  "description": "إضافة بحث وجلب سيرفرات الأفلام والمسلسلات من موقع TopCinema",
-  "resources": [
-    "catalog",
-    "stream"
-  ],
-  "types": [
-    "movie",
-    "series"
-  ],
-  "catalogs": [
-    {
-      "type": "movie",
-      "id": "topcinema_movies",
-      "name": "TopCinema - أفلام",
-      "extra": [
-        {
-          "name": "search",
-          "isRequired": false
-        }
-      ]
-    },
-    {
-      "type": "series",
-      "id": "topcinema_series",
-      "name": "TopCinema - مسلسلات",
-      "extra": [
-        {
-          "name": "search",
-          "isRequired": false
-        }
-      ]
-    }
-  ],
-  "idPrefixes": [
-    "tt",
-    "topcinema"
-  ]
-}
+[
+  {
+    "id": "topcinema-arabic",
+    "name": "TopCinema Arabic",
+    "description": "جلب سيرفرات المشاهدة المباشرة للأفلام والمسلسلات من موقع TopCinema",
+    "filename": "topcinema.js",
+    "supportedTypes": ["movie", "tv"],
+    "enabled": true
+  }
+]
